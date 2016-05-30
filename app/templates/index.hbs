@@ -1,0 +1,8 @@
+{{outlet}}
+{{#each model as |rental|}}
+	<h2>{{rental.title}}</h2>
+	<p>owner: {{rental.owner}}</p>
+	<p>type: {{rental.type}}</p>
+	<p>city: {{rental.city}}</p>
+{{/each}}
+{{#link-to "concat"}}联系我们{{/link-to}}
