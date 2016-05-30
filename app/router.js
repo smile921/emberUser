@@ -8,6 +8,7 @@ const Router = Ember.Router.extend({
 Router.map(function() {
   this.route('scientists');
   this.route('concat');
+  this.route('rental');
 });
 
 export default Router;
